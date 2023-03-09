@@ -51,7 +51,8 @@ L'utilisateur peut créer des articles, un article consiste en:
 3. npm init
 4. npm install express 
 5. npm install --save-dev nodemon
-6. npm run dev
+6. creation du fichier index.js
+7. npm run dev
 
 ### 3.2 package.json 
 
@@ -100,7 +101,3 @@ avoir la structure suivante :
 ### Etape 7 controlleur Articles
 
 1. addArticles,PostArticles,DeleteArticles etc...
-
-    
-
-

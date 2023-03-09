@@ -19,3 +19,87 @@ Le site aura une page de profil pour chaque utilisateur, ou:
 L'utilisateur peut créer des articles, un article consiste en:
 
 - id, title, content, image. 
+
+
+### etape 1 : intialisation du depot
+
+1. git init
+2. git add . 
+3. git commit -m "initialisation"
+5. git branch -M main
+5. git remot and add origin link 
+4. git push -u origin main
+
+
+
+### etape 2 : Creation du fichier "Projet" et front end
+
+1. creation d'un fichier front
+2. Cmd sur le fichier front
+3. npx create-react-app
+4. cd my app
+5. npm start
+6. ajout du proxy dans le package.json : "proxy":"http://localhost:3001",
+
+### etape 3 : Initialisation du back end
+
+### 3.1
+
+1. creation du fichier back 
+2. cmd sur le fichier back
+3. npm init
+4. npm install express 
+5. npm install --save-dev nodemon
+6. npm run dev
+
+### 3.2 package.json 
+
+avoir la structure suivante :
+
+{
+	"name": "back",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2",
+		"mongoose": "^7.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.21"
+	}
+}
+
+### etape 4 stucture de la front end
+
+1. creation de la navbar
+2. creation de la page d'acceuil 
+3. creation de la page inscription 
+4. creation de la page connexion 
+5. creation du footer a chaque page
+
+
+### etape 5 Authentification dans la back end
+1. Authentification connexion /inscription 
+2. connexion a : mongodb://localhost:27017
+3. creation d'une base de donnée : elements --> collection name : elements
+4. interaction a la base de donnée avec mongoose 
+
+### etape 6 Authentification dans la front end 
+1. inscription 
+2. connection avec mise du token dans le local storage
+
+### Etape 7 controlleur Articles
+
+1. addArticles,PostArticles,DeleteArticles etc...
+
+    
+
+

@@ -36,10 +36,11 @@ L'utilisateur peut créer des articles, un article consiste en:
 
 1. creation d'un fichier front
 2. Cmd sur le fichier front
-3. npx create-react-app
-4. cd my app
-5. npm start
-6. ajout du proxy dans le package.json : "proxy":"http://localhost:3001",
+3. npx create-react-app my-app
+4. cd my-app
+5. ajout du proxy dans le package.json : "proxy":"http://localhost:3001",
+6. npm start
+
 
 ### etape 3 : Initialisation du back end
 

@@ -82,10 +82,9 @@ avoir la structure suivante :
 ### etape 4 stucture de la front end
 
 1. creation de la navbar
-2. creation de la page d'acceuil 
-3. creation de la page inscription 
-4. creation de la page connexion 
-5. creation du footer a chaque page
+2. creation de la page inscription 
+3. creation de la page connexion 
+4. creation du footer a chaque page
 
 
 ### etape 5 Authentification dans la back end

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+}
+
+ul li{
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+@media screen and (max-width: 600px){
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}

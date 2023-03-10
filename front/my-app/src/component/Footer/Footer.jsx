@@ -1,22 +1,23 @@
 import classes from './Footer.module.css'
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 export default function Footer() {
     return(
         <div style={{display: 'flex',backgroundColor: 'gray', justifyContent:'space-around'}} >
             <ul>
-                <li><a href="#">Bonjour</a></li>
-                <li><a href="#">Aurevoir</a></li>
-                <li><a href="#">Merci</a></li>
+                <li><Link to="/" >Bonjour</Link></li>
+                <li><Link to="/" >Aurevoir</Link></li>
+                <li><Link to="/" >Merci</Link></li>
             </ul>
             <ul>
-                <li><a href="#">Gauche</a></li>
-                <li><a href="#">Droite</a></li>
-                <li><a href="#">Milliei</a></li>
+                <li><Link to="/" >Gauche</Link></li>
+                <li><Link to="/" >Droite</Link></li>
+                <li><Link to="/" >Milliei</Link></li>
             </ul>
             <ul>
-                <li><a href="#">Acceuil</a></li>
-                <li><a href="#">Connexion</a></li>
-                <li><a href="#">Inscription</a></li>
+                <li><Link to="/" >Acceuil</Link></li>
+                <li><Link to="/" >Connexion</Link></li>
+                <li><Link to="/" >Inscription</Link></li>
             </ul>
         </div>
     )

@@ -4,11 +4,11 @@ import Inscrit from "../Inscription/Inscription";
 import Footer from "../Footer/Footer"
 import App from "../../App";
 import React from "react";
+import Main from "../Main/Main";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 export default function NavBar() {
     return(
-        <BrowserRouter>
         <nav class="menu" style={{backgroundColor: 'yellow'}}>
             <ul style={{display: 'flex' , justifyContent: 'space-around'}} >
                 <li><Link to="/App" >Acceuil</Link></li> 
@@ -17,10 +17,5 @@ export default function NavBar() {
                 <li><Link to="/Connect">Connexion</Link></li> 
             </ul>
         </nav>
-        <Routes>
-        <Route exact path="/Connect" element={<Connect />} />
-        <Route path="/Inscrit" element={<Inscrit />} />
-      </Routes>
-        </BrowserRouter>
     )
 }
